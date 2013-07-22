@@ -1,0 +1,12 @@
+<IfModule mod_rewrite.c>
+
+RewriteEngine on
+
+RewriteBase /
+
+RewriteCond %{REQUEST_URI} !-d
+RewriteCond %{REQUEST_URI} !-f
+ 
+RewriteRule ^alimentos/([a-zA-Z]*)$ alimentos.php?tipo=$1
+
+</IfModule>

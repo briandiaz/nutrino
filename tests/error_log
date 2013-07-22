@@ -1,0 +1,1 @@
+[02-Jun-2013 12:16:20] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/giahnh/public_html/compraventa/tests/tests.php on line 18
